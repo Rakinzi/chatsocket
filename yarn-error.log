@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Mudiwam\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add mysql
+
+PATH: 
+  C:\Users\Mudiwam\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mudiwam\bin;C:\Python311\Scripts;C:\Python311;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Users\Mudiwam\AppData\Local\Programs\Python\Python310.exe;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Cloudflare\Cloudflare WARP;C:\Program Files\Microsoft SQL Server\150\Tools\Binn;C:\xampp\php;C:\composer;C:\Program Files\VSCodium\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\Mudiwam\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Mudiwam\AppData\Local\Programs\Python\Python310;C:\Users\Mudiwam\AppData\Local\Microsoft\WindowsApps;C:\Users\Mudiwam\AppData\Local\Programs\Python\Python310.exe;C:\Users\Mudiwam\.dotnet\tools;C:\Users\Mudiwam\AppData\Roaming\Composer\vendor\bin;C:\Users\Mudiwam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mudiwam\AppData\Roaming\npm;C:\Users\Mudiwam\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/node-gyp/-/node-gyp-7.1.2.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Mudiwam\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:848:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:570:8)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  {
+    "name": "chat",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "devStart": "nodemon server.js",
+      "start": "snowpack dev"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "socket.io": "^4.6.1",
+      "socket.io-client": "^4.6.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.21",
+      "snowpack": "^3.8.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
